@@ -1,0 +1,21 @@
+{
+  "name": "typingbot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot with STK push & pairing code support",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["whatsapp-bot", "baileys", "stk", "express"],
+  "author": "Zed",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc.3",
+    "axios": "^1.7.4",
+    "express": "^5.1.0",
+    "pino": "^9.2.0",
+    "qrcode": "^1.5.4"
+  }
+}
